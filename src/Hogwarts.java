@@ -41,7 +41,7 @@ public class Hogwarts {
         int score1 = student1.magicPower + student1.transgressionDistance;
         int score2 = student2.magicPower + student2.transgressionDistance;
         if (student1 != null && student2 != null) {
-            if (student1.magicPower > student2.magicPower) {
+            if (score1 > score2) {
                 System.out.println("По силе магии и величине расстояния трансгресии "
                         + student1.name + " выигрывает " + student2.name);
             } else {
